@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Manage-my-dating</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="css/bulma-steps.css" rel="stylesheet" />
+    <link href="css/bulma-steps.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer="defer" src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar is-warning">
+        <div class="container is-widescreen">
+            <div class="navbar-brand"><a class="navbar-item" href="#"><img src="assets/img/bulma-logo.png"
+                        alt="" width="112" height="28" /></a>
+                <div class="navbar-burger burger" data-target="mainMenu"><span></span><span></span><span></span></div>
+            </div>
+            <div class="navbar-menu" id="mainMenu">
+                <div class="navbar-start"><a class="navbar-item" href="#">Trang chủ</a></div>
+                <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link" href="#">Thư viện</a>
+                    <div class="navbar-dropdown"><a class="navbar-item" href="#">Góc quán</a><a
+                            class="navbar-item is-active" href="#">Tâm sự cùng người lạ</a><a class="navbar-item"
+                            href="#">Ngày chung đôi</a><a class="navbar-item" href="#">Tri kỉ</a>
+                        <hr class="navbar-divider" /><a class="navbar-item"
+                            href="https://bulma.io/documentation/elements/box/">Hình ảnh</a><a class="navbar-item"
+                            href="https://bulma.io/documentation/components/breadcrumb/">Đánh giá</a></div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="field is-grouped">
+                            <p class="control"><a class="button is-primary" href="#"><span class="icon"><svg
+                                            class="svg-inline--fa fa-download fa-w-16" aria-hidden="true"
+                                            data-prefix="fas" data-icon="download" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z">
+                                            </path>
+                                        </svg></span><span>Đăng kí</span></a></p>
+                            <p class="control"><a class="button is-primary" href="#"><span class="icon"><svg
+                                            class="svg-inline--fa fa-download fa-w-16" aria-hidden="true"
+                                            data-prefix="fas" data-icon="download" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z">
+                                            </path>
+                                        </svg></span><span>Đăng Nhập</span></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="section" id="block-manage-my-dating">
+        <div class="container">
+            <div class="columns is-centered is-mobile">
+                <div
+                    class="column has-background-light is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-two-quarter-fullhd">
+                    <div class="block-h-head">
+                        <h3 class="title is-4 has-text-danger has-text-centered">Quản lý cuộc hẹn</h3>
+                        <div class="head-title has-text-centered"><img src="assets/img/02-l.png" alt="" /></div>
+                    </div>
+                    <div class="columns is-centered">
+                        <div class="column is-12">
+                            <div class="field">
+                                <div class="control"><input class="input" type="text"
+                                        placeholder="Sở thích &amp; tài lẻ" /></div>
+                            </div>
+                            <div class="field">
+                                <div class="control"><textarea
+                                        class="textarea">Bạn muốn hẹn hò hay chi đơn giản là 1 người bạn. cùng chia sẻ những câu chuyện. Hãy gửi vài lời đến "người ấy" !</textarea>
+                                </div>
+                            </div><label class="label" for="#">Chọn Ngày</label>
+                            <div class="field is-grouped">
+                                <div class="control">
+                                    <div class="select is-primary"><select>
+                                            <option>Ngày</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                            <option>11</option>
+                                            <option>12</option>
+                                            <option>13</option>
+                                            <option>14</option>
+                                            <option>15</option>
+                                            <option>16</option>
+                                            <option>17</option>
+                                            <option>18</option>
+                                            <option>19</option>
+                                            <option>20</option>
+                                            <option>21</option>
+                                            <option>22</option>
+                                            <option>23</option>
+                                            <option>24</option>
+                                            <option>25</option>
+                                            <option>26</option>
+                                            <option>27</option>
+                                            <option>28</option>
+                                            <option>29</option>
+                                            <option>30</option>
+                                        </select></div>
+                                </div>
+                                <div class="control">
+                                    <div class="select is-primary"><select>
+                                            <option>Tháng</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                            <option>11</option>
+                                            <option>12</option>
+                                        </select></div>
+                                </div>
+                                <div class="control">
+                                    <div class="select is-primary"><select>
+                                            <option>Năm</option>
+                                            <option>2019</option>
+                                            <option>2020</option>
+                                            <option>2021</option>
+                                            <option>2022</option>
+                                            <option>2023</option>
+                                            <option>2024</option>
+                                            <option>2025</option>
+                                            <option>2026</option>
+                                            <option>2027</option>
+                                            <option>2028</option>
+                                            <option>2029</option>
+                                            <option>2030</option>
+                                            <option>2031</option>
+                                            <option>2032</option>
+                                            <option>2033</option>
+                                            <option>2034</option>
+                                            <option>2035</option>
+                                            <option>2036</option>
+                                            <option>2037</option>
+                                            <option>2038</option>
+                                            <option>2039</option>
+                                            <option>2040</option>
+                                            <option>2041</option>
+                                            <option>2042</option>
+                                            <option>2043</option>
+                                            <option>2044</option>
+                                            <option>2045</option>
+                                            <option>2046</option>
+                                            <option>2047</option>
+                                            <option>2048</option>
+                                            <option>2049</option>
+                                            <option>2050</option>
+                                            <option>2051</option>
+                                            <option>2052</option>
+                                            <option>2053</option>
+                                            <option>2054</option>
+                                            <option>2055</option>
+                                            <option>2056</option>
+                                            <option>2057</option>
+                                            <option>2058</option>
+                                            <option>2059</option>
+                                            <option>2060</option>
+                                            <option>2061</option>
+                                            <option>2062</option>
+                                            <option>2063</option>
+                                            <option>2064</option>
+                                            <option>2065</option>
+                                            <option>2066</option>
+                                            <option>2067</option>
+                                            <option>2068</option>
+                                            <option>2069</option>
+                                            <option>2070</option>
+                                            <option>2071</option>
+                                            <option>2072</option>
+                                            <option>2073</option>
+                                            <option>2074</option>
+                                            <option>2075</option>
+                                            <option>2076</option>
+                                            <option>2077</option>
+                                            <option>2078</option>
+                                            <option>2079</option>
+                                            <option>2080</option>
+                                            <option>2081</option>
+                                            <option>2082</option>
+                                            <option>2083</option>
+                                            <option>2084</option>
+                                            <option>2085</option>
+                                            <option>2086</option>
+                                            <option>2087</option>
+                                            <option>2088</option>
+                                            <option>2089</option>
+                                            <option>2090</option>
+                                        </select></div>
+                                </div>
+                            </div>
+                            <!--end from ngay   --><label class="label" for="#">Chọn Giờ </label>
+                            <div class="field is-grouped">
+                                <div class="control">
+                                    <div class="select is-primary"><select>
+                                            <option>Giờ</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                            <option>11</option>
+                                            <option>12</option>
+                                            <option>13</option>
+                                            <option>14</option>
+                                            <option>15</option>
+                                            <option>16</option>
+                                            <option>17</option>
+                                            <option>18</option>
+                                            <option>19</option>
+                                            <option>20</option>
+                                            <option>21</option>
+                                            <option>22</option>
+                                            <option>23</option>
+                                            <option>24</option>
+                                        </select></div>
+                                </div>
+                                <div class="control">
+                                    <div class="select is-primary"><select>
+                                            <option>Phút</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                            <option>11</option>
+                                            <option>12</option>
+                                            <option>13</option>
+                                            <option>14</option>
+                                            <option>15</option>
+                                            <option>16</option>
+                                            <option>17</option>
+                                            <option>18</option>
+                                            <option>19</option>
+                                            <option>20</option>
+                                            <option>21</option>
+                                            <option>22</option>
+                                            <option>23</option>
+                                            <option>24</option>
+                                            <option>25</option>
+                                            <option>26</option>
+                                            <option>27</option>
+                                            <option>28</option>
+                                            <option>29</option>
+                                            <option>30</option>
+                                            <option>31</option>
+                                            <option>32</option>
+                                            <option>33</option>
+                                            <option>34</option>
+                                            <option>35</option>
+                                            <option>36</option>
+                                            <option>37</option>
+                                            <option>38</option>
+                                            <option>39</option>
+                                            <option>40</option>
+                                            <option>41</option>
+                                            <option>42</option>
+                                            <option>43</option>
+                                            <option>44</option>
+                                            <option>45</option>
+                                            <option>46</option>
+                                            <option>47</option>
+                                            <option>48</option>
+                                            <option>49</option>
+                                            <option>50</option>
+                                            <option>51</option>
+                                            <option>52</option>
+                                            <option>53</option>
+                                            <option>54</option>
+                                            <option>55</option>
+                                            <option>56</option>
+                                            <option>57</option>
+                                            <option>58</option>
+                                            <option>59</option>
+                                        </select></div>
+                                </div>
+                            </div>
+                            <!--en gio--><label class="label" for="#">Chọn Địa Điểm</label>
+                            <div class="field">
+                                <div class="control">
+                                    <div class="select is-primary"><select>
+                                            <option>Select dropdown</option>
+                                            <option>Select dropdown</option>
+                                            <option>Select dropdown</option>
+                                        </select></div>
+                                </div>
+                            </div>
+                            <div class="field is-grouped is-grouped-right">
+                                <div class="control"> <button class="button is-success">Chỉnh sử thông tin</button>
+                                </div>
+                                <div class="control"><button class="button is-success">Tìm kiếm</button></div>
+                            </div>
+                            <div class="has-text-right"><a href="#">Dừng để bạn chờ lâu!!!</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer has-text-light">
+        <div class="content has-text-centered">
+            <figure><img class="image is-128x128 mg-center" src="assets/img/logo-footer.gif" alt="" /></figure>
+            <p><a href="#">Tuannguyen</a>by <a href="#">Team</a>. The source code is licensed</p>
+        </div>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+</body>
+
+</html>
